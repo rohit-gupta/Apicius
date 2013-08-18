@@ -1,8 +1,0 @@
-<?php
-$dbname='testProject2';
-$host=;
-$username=;
-$password=;
-$dbh = new PDO("pgsql:dbname=$dbname;host=$host", $username, $password );
-?>
-
