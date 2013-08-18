@@ -1,0 +1,1 @@
+INSERT INTO ratings VALUES (:dish_id,:user_id,time(),:rating_value);

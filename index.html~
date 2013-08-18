@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 101 Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<style>
+
+
+.recipe-name{
+
+	color:#ff5600;
+}
+</style>
+</head>
+<body>
+	 <div class="navbar">
+		    <div class="navbar-inner">
+		    <a class="brand" href="#" >Apicius</a>
+		    <ul class="nav">
+		    <li  class="active"><a href="#">Recipes</a></li>
+		    <li><a href="#">Ingredients</a></li>
+		    <li><a href="#">Equipment</a></li>
+		    </ul>
+		    </div>
+	    </div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12" style="height:700px; background-color:white;">
+			<!--Body content-->
+			
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img class="media-object img-polaroid" width="100px" height="100px" src="img/Alison-Brie.png">
+				</a>
+				<div class="media-body">
+				<h4 class="media-heading recipe-name">Recipe #1</h4>
+				Alison Brie
+				</div>
+			</div>
+			
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img class="media-object img-polaroid" width="100px" height="100px" src="img/Alison-Brie.png">
+				</a>
+				<div class="media-body">
+				<h4 class="media-heading recipe-name">Recipe #2</h4>
+				Alison Brie
+				</div>
+			</div>
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img class="media-object img-polaroid" width="100px" height="100px" src="img/Alison-Brie.png">
+				</a>
+				<div class="media-body">
+				<h4 class="media-heading recipe-name">Recipe #3</h4>
+				Alison Brie
+				</div>
+			</div>
+
+						
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
