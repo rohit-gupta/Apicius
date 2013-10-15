@@ -16,19 +16,16 @@
 		}
 	}
 	/*insert variable values into queries */
-	/* ***might need to implement check based on count to see if any substitution errors *** */
 	function values_to_query($file,$param)
 	{
 		$query=file_get_contents($file);
 		$keys=array_keys($param);
-		//$count=0;
 		$i=0;
 		while(isset($keys[$i]))
 		{
 			$query=str_replace(':'.$keys[$i],$param[$keys[$i]],$query,$count);
 			$i++;
 		}
-		//count($keys)
 		return $query;
 	}
 	function construct_html($data,$file)
