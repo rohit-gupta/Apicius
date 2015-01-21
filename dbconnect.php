@@ -1,10 +1,10 @@
 <?php
 function connect_db()
 {
-	$dbname='testProject2';
-	$host='localhost';
-	$username='grohit';
-	$password='angmar';
+	$dbname='<DATABASE>';
+	$host='<HOST>';
+	$username='<USER>';
+	$password='<PASSWORD>';
 	
 	try {
 		$conn = new PDO("pgsql:host=".$host.";dbname=".$dbname, $username, $password );
